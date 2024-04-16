@@ -6,7 +6,7 @@ const AboutUs = () => {
     <div className='w-full h-auto flex flex-wrap flex-shrink bg-black justify-center pt-20'>
         <div className="image-container w-[50%] pl-44 mb-10">
          
-           {/* <Image className='rounded shadow-md shadow-slate-400' src={'/gymbros.webp'} width={500} height={500}></Image> */}
+           <Image className='rounded shadow-md shadow-slate-400' src={'/gymbros.webp'} width={500} height={500}></Image>
 
         </div>
         <div className="w-[50%]  pr-10">
