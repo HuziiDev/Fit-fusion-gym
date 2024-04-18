@@ -52,7 +52,7 @@ const Navbar = () => {
     </nav>
           {
             isActive && (
-              <div className='absolute z-20 w-full h-screen bg-zinc-700 top-0 '>
+              <div className='absolute z-20 w-full h-screen bg-zinc-900 top-0 '>
           <nav className='flex flex-col gap-12 mt-16 justify-center items-center'>
           {
               links.map(({id, name , href}) => (
