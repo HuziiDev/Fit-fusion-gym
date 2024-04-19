@@ -14,11 +14,11 @@ const Header = () => {
    
 
   return (
-    <div className='header w-full h-screen bg-black  overflow-x-hidden '>
+    <div className='header w-full h-[40rem] bg-black  overflow-x-hidden '>
     <Navbar/>
 
 
-    <div className='hero flex flex-wrap flex-shrink '> 
+    <div className='hero  flex flex-wrap flex-shrink '> 
     <div className="absolute md:block  z-10 content mt-44  ml-44 ">
         <h1 className='text-5xl  text-white font-medium'>Fitness and Health</h1>
         <h2 className='text-white text-3xl mt-4'>With double Power</h2>
