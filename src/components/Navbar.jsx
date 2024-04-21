@@ -35,7 +35,7 @@ const Navbar = () => {
       ]
   return (
     <div className='navbar bg-black w-full h-auto  flex justify-between pt-4 flex-wrap'>
-    <Link className='text-white text-3xl font-semibold pl-10' href={'/'}>
+    <Link className='text-white text-3xl font-semibold pl-4 md:pl-10' href={'/'}>
       <Image className='w-16 h-16 md:w-20 md:h-20' src={'/logo.png'} height={'100'} width={'100'}></Image>
     </Link>
     
