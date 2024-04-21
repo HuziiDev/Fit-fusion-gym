@@ -36,3 +36,50 @@
     width: 400px;
   }
 }
+
+@media screen and (max-width: 580px) {
+
+.convo-content h1{
+  font-size: 30px;
+}
+.convo-content h2{
+  font-size: 20px;
+}
+.convo-btn button{
+  padding: 5px 25px;
+}
+
+
+}
+@media screen and (max-width: 510px) {
+
+.convo-content{
+  padding-left: 20px;
+}
+.convo-btn{
+  padding-left: 20px;
+}
+
+
+}
+@media screen and (max-width: 400px) {
+
+.convo-content h1{
+  font-size: 25px;
+}
+.convo-content h2{
+  font-size: 18px;
+}
+}
+
+@media screen and (max-width: 350px) {
+
+.convo-content h1{
+  font-size: 20px;
+}
+.convo-content h2{
+  font-size: 15px;
+}
+
+
+}
