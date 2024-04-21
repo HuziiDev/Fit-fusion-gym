@@ -7,7 +7,7 @@ const Pricing = () => {
             <h2 className='text-white text-2xl font-semibold italic mb-3'>Pricing</h2>
             <h1 className='text-white text-5xl font-semibold'>Our Packages</h1>
         </div>
-        <div className="relative z-10 gap-4   card-container flex flex-wrap flex-shrink w-full h-auto bg-transparent justify-center ">
+        <div className="relative z-10 gap-4   card-container flex flex-wrap flex-shrink w-full h-auto bg-transparent justify-center  ">
            <PricingCard
             title="Regular Gym"
             membershipPrice="₹10,000/year"
