@@ -4,8 +4,8 @@ const Pricing = () => {
   return (
     <div className='pricing-container w-full h-auto  '>
         <div className="pricing-content relative z-10 text-center pt-24">
-            <h2 className='text-white text-2xl font-semibold italic mb-3'>Pricing</h2>
-            <h1 className='text-white text-5xl font-semibold'>Our Packages</h1>
+            <h2 className=' text-red-700 text-2xl font-semibold italic mb-3'>Pricing</h2>
+            <h1 className='text-slate-200  text-5xl font-semibold'>Our Packages</h1>
         </div>
         <div className="relative z-10 gap-4   card-container flex flex-wrap flex-shrink w-full h-auto bg-transparent justify-center  ">
            <PricingCard
