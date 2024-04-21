@@ -5,6 +5,7 @@ import AboutUs from "@/components/AboutUs";
 import Conversation from "@/components/Conversation";
 import Pricing from "@/components/Pricing";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="bg-black overflow-x-hidden">
@@ -14,6 +15,7 @@ export default function Home() {
      <AboutUs/>
      <Conversation/>
      <Pricing/>
+     <Footer/>
      </div>
   );
 }
