@@ -2,7 +2,7 @@ import React from 'react'
 
 const PricingCard = ({title, membershipPrice, desc }) => {
   return (
-    <div className="card bg-white max-w-lg mt-10 ">
+    <div className="pricing-card bg-white max-w-lg mt-10 ">
     <h1 className='text-black text-3xl font-semibold pl-3 pt-3'>{title}</h1>
     <div className='flex pl-3 pt-4 gap-4'>
     <div className='bg-red-700 w-1 h-16'></div>

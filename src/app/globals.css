@@ -83,3 +83,17 @@
 
 
 }
+
+
+@media screen and (max-width: 550px) {
+.pricing-card{
+  width: 90%;
+}
+
+}
+@media screen and (max-width: 420px) {
+.pricing-container h1{
+  font-size: 35px;
+}
+
+}
