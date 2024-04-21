@@ -6,7 +6,7 @@ import ServiceCard from './ServiceCard';
 import { CgGym } from "react-icons/cg";
 const Services  = () => {
   return (
-    <div className=' w-full h-auto bg-zinc-900 flex flex-wrap'>
+    <div className=' w-full h-auto bg-gradient-to-r from-zinc-700 to-red-700 flex flex-wrap'>
         <ServiceCard
         title="Changing Room"
         desc="Privacy matters"
