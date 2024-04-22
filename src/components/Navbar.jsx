@@ -34,7 +34,7 @@ const Navbar = () => {
         },
       ]
   return (
-    <div className='navbar bg-black w-full h-auto  flex justify-between pt-4 flex-wrap'>
+    <div className='absolute top-0 navbar bg-transparent w-full h-auto  flex justify-between pt-4 flex-wrap'>
     <Link className='text-white text-3xl font-semibold pl-4 md:pl-10' href={'/'}>
       <Image className='w-16 h-16 md:w-20 md:h-20' src={'/logo.png'} height={'100'} width={'100'}></Image>
     </Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
     <nav className='hidden md:flex gap-10 pr-10 pt-7'>
             {
               links.map(({id, name , href}) => (
-                <Link key={id} className='text-white font-medium' href={href}>{name}</Link>
+                <Link key={id} className='text-white font-medium hover:text-red-700 duration-200 hover:scale-110' href={href}>{name}</Link>
               ))
             }
              
@@ -54,11 +54,11 @@ const Navbar = () => {
     </nav>
           {
             isActive && (
-              <div className='absolute z-20 w-full h-screen bg-zinc-900 top-0 '>
+              <div className='absolute z-20 w-[80%] h-screen right-0 bg-black top-0 '>
           <nav className='flex flex-col gap-12 mt-16 justify-center items-center'>
           {
               links.map(({id, name , href}) => (
-                <Link key={id} className='text-white font-semibold text-4xl ' href={href}>{name}</Link>
+                <Link key={id} className='text-white font-medium text-4xl hover:text-red-700 transition-all duration-200 ' href={href}>{name}</Link>
               ))
             }
 
@@ -71,7 +71,7 @@ const Navbar = () => {
 
         {isActive ?   
           <div className='md:hidden  pr-4 pt-4 cursor-pointer z-30'  onClick={() => setActive((prev)=> !prev)} >
-          <svg fill="#ffffff" width="35px" height="35px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+          <svg fill="#ffffff" width="30px" height="30px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z" fill-rule="evenodd"/>
 </svg>
 

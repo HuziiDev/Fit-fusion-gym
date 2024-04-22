@@ -1,12 +1,17 @@
+
 import React from 'react'
+
 import { FaTshirt } from "react-icons/fa";
 import { HiUserGroup } from "react-icons/hi2";
 import { FaVideo } from "react-icons/fa";
 import ServiceCard from './ServiceCard';
 import { CgGym } from "react-icons/cg";
+
 const Services  = () => {
   return (
-    <div className=' w-full h-auto bg-gradient-to-r from-zinc-700 to-red-700 flex flex-wrap'>
+    <div className=' w-full h-auto bg-gradient-to-r from-red-400 to-red-700 flex flex-wrap'
+   
+    >
         <ServiceCard
         title="Changing Room"
         desc="Privacy matters"
